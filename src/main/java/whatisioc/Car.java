@@ -3,8 +3,8 @@ package whatisioc;
 public class Car {
     Tire tire;
 
-    public Car() {
-        tire = new KoreaTire();
+    public Car(Tire tire) {
+        this.tire = tire;
     }
 
     public String getTireBrand() {
